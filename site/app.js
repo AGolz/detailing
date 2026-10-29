@@ -41,14 +41,6 @@
   });
   $('#goalGrid').innerHTML = C.goals.map((name,i)=>`<a class="goal-link" href="#services" data-goal="${i}"><b>0${i+1} ↗</b><strong>${esc(name)}</strong><small>${esc(C.goalNotes[i])}</small></a>`).join('');
   $('#serviceList').innerHTML=D.services.map((s,i)=>`<article class="service" id="service-${s.id}"><div class="service-num">0${i+1}</div><div><h3>${esc(text(s.name))}</h3><small>${esc(C.suitable)}</small><p>${esc(text(s.who))}</p></div><div class="service-scope"><small>${esc(C.included)}</small><p>${esc(text(s.scope))}</p></div><div class="service-price"><strong>${money(s.price)}</strong><p>${esc(text(s.time))}</p><a class="text-link" href="#request" data-estimate="${s.id}" data-source="service">${esc(C.ask)} ↗</a></div></article>`).join('');
-  const categories=['all',...new Set(D.works.map(w=>w.category))];
-  $('#filters').innerHTML=categories.map(id=>`<button class="filter" data-filter="${id}" aria-pressed="${id==='all'}" type="button">${esc(id==='all'?C.all:text(D.services.find(s=>s.id===id).name))}</button>`).join('');
-  $('#workGrid').innerHTML=D.works.map(w=>`<figure class="work-card" data-category="${w.category}"><img src="assets/${w.image}" alt="${esc(w.car)} · ${esc(C.stock)}" loading="lazy" width="1000" height="700"><figcaption><h3>${esc(w.car)}</h3><p><strong>${esc(C.workTask)}:</strong> ${esc(text(w.task))}</p><p><strong>${esc(C.workDone)}:</strong> ${esc(text(w.scope))}</p><small>${esc(C.stock)}</small></figcaption></figure>`).join('');
-  $$('.filter').forEach(button=>button.addEventListener('click',()=>{
-    $$('.filter').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
-    $$('.work-card').forEach(card=>{card.hidden=button.dataset.filter!=='all' && card.dataset.category!==button.dataset.filter;});
-    track('gallery_filter',{category:button.dataset.filter});
-  }));
   $('#packageList').innerHTML=D.packages.map(p=>`<article class="package"><h3>${esc(text(p.name))}</h3><p>${esc(text(p.scope))}</p><strong>${money(p.price)}</strong><a class="button" href="#request" data-estimate="${p.id}" data-source="package">${esc(C.ask)} ↗</a></article>`).join('');
   $('#processList').innerHTML=C.process.map((name,i)=>`<li><b>0${i+1}</b><h3>${esc(name)}</h3><p>${esc(C.processNotes[i])}</p></li>`).join('');
   $('#principles').innerHTML=C.principles.map(([title,body])=>`<article class="principle"><h3>${esc(title)}</h3><p>${esc(body)}</p></article>`).join('');

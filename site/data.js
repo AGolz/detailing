@@ -12,10 +12,10 @@ window.FORM_DATA = {
       "view": "Посмотреть работы",
       "demo": "Портфолио-демо · Ереван",
       "hero": [
-        "Чистая форма.",
-        "Точная работа."
+        "Ваш автомобиль.",
+        "В лучшей форме."
       ],
-      "intro": "Детейлинг без лишних обещаний. Уход за салоном, восстановление блеска и защита кузова — с оценкой состояния до начала работ.",
+      "intro": "Полировка, защита кузова и уход за салоном в Ереване. Состав работ и стоимость согласуем после оценки.",
       "heroFoot": "КУЗОВ / САЛОН / ЗАЩИТА",
       "photoLabel": "Стоковое фото · визуальное направление проекта",
       "goalTitle": "Что нужно вашему автомобилю?",
@@ -31,7 +31,7 @@ window.FORM_DATA = {
         "Подберём керамику или плёнку под задачу.",
         "Собранный вид снаружи и внутри."
       ],
-      "servicesTitle": "Уход по существу.",
+      "servicesTitle": "Услуги",
       "servicesIntro": "Ориентиры для планирования, а не окончательная смета. Цена и срок зависят от размера и состояния автомобиля.",
       "suitable": "Для кого",
       "included": "Что входит",
@@ -40,16 +40,16 @@ window.FORM_DATA = {
       "ask": "Запросить оценку",
       "selectedGoal": "Подходящие услуги выделены. Выберите услугу или обратитесь за консультацией.",
       "allServices": "Все услуги",
-      "workTitle": "Детали решают.",
+      "workTitle": "В фокусе — детали.",
       "workIntro": "Визуальные примеры задач. Все фотографии — стоковые, не реальные работы FORM. Достоверных пар «до/после» пока нет, поэтому сравнение не имитируем.",
       "all": "Все",
       "workTask": "Задача",
       "workDone": "Пример состава работ",
       "stock": "Стоковое фото · пример, не выполненный кейс",
-      "packagesTitle": "Три отправные точки.",
+      "packagesTitle": "Комплексный уход",
       "packagesIntro": "Состав можно изменить после осмотра. Стоимость указана «от» для компактного автомобиля.",
       "package": "Пакет",
-      "processTitle": "Сначала согласуем. Затем работаем.",
+      "processTitle": "От оценки до выдачи",
       "process": [
         "Заявка",
         "Фото или осмотр",
@@ -80,7 +80,7 @@ window.FORM_DATA = {
           "В реальной студии до начала работ фиксируют ограничения, стоимость, срок и рекомендации по уходу."
         ]
       ],
-      "faqTitle": "До того, как оставить ключи.",
+      "faqTitle": "Вопросы перед визитом",
       "faq": [
         [
           "Почему цена «от»?",
@@ -107,7 +107,7 @@ window.FORM_DATA = {
           "Срок до первой мойки и условия отверждения зависят от применённого состава или плёнки. Администратор должен выдать рекомендации конкретного производителя."
         ]
       ],
-      "formTitle": "Начнём с вашего автомобиля.",
+      "formTitle": "Обсудим ваш автомобиль.",
       "formIntro": "Пять коротких шагов для предварительной оценки. Это не подтверждённая запись.",
       "privacy": "Демо: данные и фотографии остаются в этой вкладке и никуда не отправляются. Не используйте личные данные или документы.",
       "steps": [
@@ -168,7 +168,7 @@ window.FORM_DATA = {
       "complete": "Демонстрационная заявка сформирована. Данные не отправлены",
       "completeText": "Никакая запись не создана. В реальном сценарии администратор уточнит задачу и согласует стоимость и время.",
       "reset": "Начать заново",
-      "contactTitle": "Ереван. По предварительному согласованию.",
+      "contactTitle": "Будем на связи.",
       "addressLabel": "Адрес",
       "address": "Демо-локация · Ереван, Армения. Точный адрес не задан.",
       "hoursLabel": "Пример часов работы",
@@ -198,10 +198,10 @@ window.FORM_DATA = {
       "view": "Explore the work",
       "demo": "Portfolio demo · Yerevan",
       "hero": [
-        "Pure form.",
-        "Precise care."
+        "Your car.",
+        "At its best."
       ],
-      "intro": "Considered detailing. Interior care, paint refinement and surface protection — with a condition assessment before the work begins.",
+      "intro": "Paint refinement, protection and interior care in Yerevan. Scope and cost are agreed after assessment.",
       "heroFoot": "PAINT / INTERIOR / PROTECTION",
       "photoLabel": "Stock photography · project visual direction",
       "goalTitle": "What does your car need?",
@@ -217,7 +217,7 @@ window.FORM_DATA = {
         "Ceramic or film, matched to your needs.",
         "A considered finish, inside and out."
       ],
-      "servicesTitle": "Care with a purpose.",
+      "servicesTitle": "Services",
       "servicesIntro": "Planning estimates, not a final quote. Cost and timing depend on the size and condition of your vehicle.",
       "suitable": "Suited to",
       "included": "What is included",
@@ -226,16 +226,16 @@ window.FORM_DATA = {
       "ask": "Request an estimate",
       "selectedGoal": "Relevant services are highlighted. Choose one or ask for advice.",
       "allServices": "All services",
-      "workTitle": "It is in the details.",
+      "workTitle": "A closer look.",
       "workIntro": "Illustrative project briefs. All images are stock photos, not actual FORM work. No verified before/after pairs are available, so we do not simulate a comparison.",
       "all": "All",
       "workTask": "The brief",
       "workDone": "Illustrative scope",
       "stock": "Stock photo · illustrative, not a completed project",
-      "packagesTitle": "Three starting points.",
+      "packagesTitle": "Considered care",
       "packagesIntro": "Scope can change after inspection. Starting prices are for a compact car.",
       "package": "Package",
-      "processTitle": "Agree first. Then get to work.",
+      "processTitle": "From assessment to handover",
       "process": [
         "Your request",
         "Photos or inspection",
@@ -266,7 +266,7 @@ window.FORM_DATA = {
           "A real studio should record limitations, cost, timing and aftercare before starting."
         ]
       ],
-      "faqTitle": "Before you hand over the keys.",
+      "faqTitle": "Before your visit",
       "faq": [
         [
           "Why a starting price?",
@@ -293,7 +293,7 @@ window.FORM_DATA = {
           "The first wash and curing conditions depend on the chosen product or film. The administrator should provide the specific manufacturer’s instructions."
         ]
       ],
-      "formTitle": "Start with your car.",
+      "formTitle": "Let’s talk about your car.",
       "formIntro": "Five short steps towards an initial estimate. This is not a confirmed appointment.",
       "privacy": "Demo: details and photos stay in this tab and are never sent. Do not use personal documents or sensitive details.",
       "steps": [
@@ -354,7 +354,7 @@ window.FORM_DATA = {
       "complete": "Demo request created. No data has been sent",
       "completeText": "No appointment has been booked. In a real workflow, an administrator would clarify the brief, cost and timing.",
       "reset": "Start again",
-      "contactTitle": "Yerevan. By prior arrangement.",
+      "contactTitle": "Get in touch.",
       "addressLabel": "Address",
       "address": "Demo location · Yerevan, Armenia. No street address configured.",
       "hoursLabel": "Illustrative opening hours",
@@ -384,10 +384,10 @@ window.FORM_DATA = {
       "view": "Դիտել աշխատանքները",
       "demo": "Պորտֆոլիոյի դեմո · Երևան",
       "hero": [
-        "Մաքուր ձև։",
-        "Ճշգրիտ խնամք։"
+        "Ձեր մեքենան՝",
+        "լավագույն տեսքով։"
       ],
-      "intro": "Ավտոդեթեյլինգ՝ առանց ավելորդ խոստումների։ Սրահի խնամք, թափքի փայլի վերականգնում և պաշտպանություն՝ նախնական գնահատմամբ։",
+      "intro": "Փայլեցում, թափքի պաշտպանություն և սրահի խնամք Երևանում։ Աշխատանքների կազմն ու արժեքը համաձայնեցնում ենք գնահատումից հետո։",
       "heroFoot": "ԹԱՓՔ / ՍՐԱՀ / ՊԱՇՏՊԱՆՈՒԹՅՈՒՆ",
       "photoLabel": "Ստոկային լուսանկար · նախագծի տեսողական ուղղություն",
       "goalTitle": "Ի՞նչ է պետք ձեր մեքենային։",
@@ -403,7 +403,7 @@ window.FORM_DATA = {
         "Կերամիկա կամ թաղանթ՝ ըստ խնդրի։",
         "Խնամված տեսք՝ ներսից և դրսից։"
       ],
-      "servicesTitle": "Խնամք՝ ըստ անհրաժեշտության։",
+      "servicesTitle": "Ծառայություններ",
       "servicesIntro": "Նախնական գներ՝ պլանավորման համար։ Վերջնական արժեքն ու ժամկետը կախված են մեքենայի չափից և վիճակից։",
       "suitable": "Ում համար է",
       "included": "Ինչ է ներառում",
@@ -412,16 +412,16 @@ window.FORM_DATA = {
       "ask": "Հարցնել գնահատումը",
       "selectedGoal": "Համապատասխան ծառայությունները նշված են։ Ընտրեք ծառայություն կամ խորհրդատվություն։",
       "allServices": "Բոլոր ծառայությունները",
-      "workTitle": "Մանրուքներն են որոշիչ։",
+      "workTitle": "Ուշադրություն՝ մանրուքներին։",
       "workIntro": "Խնդիրների տեսողական օրինակներ։ Բոլոր լուսանկարները ստոկային են, ոչ FORM-ի իրական աշխատանքներ։ Նույն մեքենայի հավաստի «մինչև/հետո» զույգեր չկան, ուստի համեմատություն չենք նմանակում։",
       "all": "Բոլորը",
       "workTask": "Խնդիրը",
       "workDone": "Աշխատանքի օրինակելի կազմը",
       "stock": "Ստոկային լուսանկար · օրինակ, ոչ իրական աշխատանք",
-      "packagesTitle": "Երեք մեկնարկային տարբերակ։",
+      "packagesTitle": "Համալիր խնամք",
       "packagesIntro": "Կազմը կարող է փոխվել զննումից հետո։ Մեկնարկային գները նախատեսված են կոմպակտ մեքենայի համար։",
       "package": "Փաթեթ",
-      "processTitle": "Նախ համաձայնեցնում ենք։ Հետո աշխատում։",
+      "processTitle": "Գնահատումից մինչև հանձնում",
       "process": [
         "Հայտ",
         "Լուսանկար կամ զննում",
@@ -452,7 +452,7 @@ window.FORM_DATA = {
           "Իրական ստուդիայում նախապես գրանցվում են սահմանափակումները, արժեքը, ժամկետը և խնամքի ցուցումները։"
         ]
       ],
-      "faqTitle": "Նախքան բանալիները հանձնելը։",
+      "faqTitle": "Այցից առաջ",
       "faq": [
         [
           "Ինչո՞ւ են գները մեկնարկային։",
@@ -479,7 +479,7 @@ window.FORM_DATA = {
           "Առաջին լվացման ժամկետն ու ամրացման պայմանները կախված են նյութից կամ թաղանթից։ Պետք է ստանալ կոնկրետ արտադրողի ցուցումները։"
         ]
       ],
-      "formTitle": "Սկսենք ձեր մեքենայից։",
+      "formTitle": "Քննարկենք ձեր մեքենան։",
       "formIntro": "Հինգ կարճ քայլ՝ նախնական գնահատման համար։ Սա հաստատված ամրագրում չէ։",
       "privacy": "Դեմո․ տվյալներն ու լուսանկարները մնում են այս ներդիրում և չեն ուղարկվում։ Մի օգտագործեք անձնական փաստաթղթեր կամ զգայուն տվյալներ։",
       "steps": [
@@ -540,7 +540,7 @@ window.FORM_DATA = {
       "complete": "Ցուցադրական հայտը կազմված է։ Տվյալները չեն ուղարկվել",
       "completeText": "Ամրագրում չի ստեղծվել։ Իրական սցենարում ադմինիստրատորը կճշտի խնդիրը, արժեքն ու ժամկետը։",
       "reset": "Սկսել նորից",
-      "contactTitle": "Երևան։ Նախնական համաձայնությամբ։",
+      "contactTitle": "Կապ մեզ հետ։",
       "addressLabel": "Հասցե",
       "address": "Դեմո վայր · Երևան, Հայաստան։ Հստակ հասցե նշված չէ։",
       "hoursLabel": "Աշխատանքային ժամերի օրինակ",
